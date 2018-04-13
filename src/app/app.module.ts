@@ -3,14 +3,23 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { PaymentManagerComponent } from './paymentManager/paymentManager.component';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import {routes} from "./app-route.module"
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    PaymentManagerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CommonModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
