@@ -8,18 +8,29 @@ import { PaymentManagerComponent } from './paymentManager/paymentManager.compone
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import {routes} from "./app-route.module"
+import { NewPaymentComponent } from './newPayments/newPayments.component';
+import { CreditCardComponent } from './creditCard/creditCard.component';
+import { PaymentSummaryComponent } from './paymentSummary/paymentSummary.component';
+import { PaymentReceiptComponent } from './paymentReceipt/paymentReceipt.component';
+import { PaymentListComponent } from './paymentList/paymentList.component';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent,
+     AppComponent,
     HeaderComponent,
-    PaymentManagerComponent
+    PaymentManagerComponent,
+    NewPaymentComponent,
+     CreditCardComponent,
+    PaymentSummaryComponent,
+    PaymentReceiptComponent,
+    PaymentListComponent
   ],
   imports: [
     BrowserModule,
     CommonModule,
-    RouterModule.forRoot(routes)
+     RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
