@@ -1,0 +1,13 @@
+.newpayments{
+    background-color:#464E54;
+    color:#EAEAEA;
+}
+.carousel-inner{
+
+    background-color:#464E54;
+}
+.item img{
+    max-height:200px !important;
+    padding-bottom: 5px;
+    background-color: #FFFF !important;
+}

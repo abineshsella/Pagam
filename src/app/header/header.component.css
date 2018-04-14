@@ -1,12 +1,15 @@
-img{
-    border-radius: 25%;
-}
-.merchantDetails{
-    border-bottom: 1px solid #FF5964;
-}
 .language img{
     height: 22px;
     cursor: pointer;
+}
+hr{
+    margin-top:4px !important;
+    margin-bottom: 4px !important;
+}
+.header{
+padding-top:20px;
+padding-bottom: 20px;
+font-size: 16px;
 }
 .dropdown-content {
     display: none;
