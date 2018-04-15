@@ -1,0 +1,16 @@
+section{
+    padding-top:20px;
+}
+.image{
+    height: 185px;
+    width: 315px;
+    padding: 15px 15px 15px 15px;
+}
+.wrapper{
+    background-color: #FFFFFF;
+}
+.paymentname{
+    font-family: tahoma;
+        color: #505961;
+        padding-top:5px;
+}
