@@ -7,27 +7,27 @@
     <div class="col-lg-3 col-md-3 col-sm-3">
         <br/>
         <span class="merchantDetails text-center">
-            <span>Merchant Name :</span>
-            <span>FakeMerchant</span>
+            <span>{{'header.shop' |translate}} :</span>
+            <span>{{merchantName}}</span>
         </span>
         
         <hr>
         <span>
-            <span>Amount :</span>
-            <span>0.05 Euro</span>
+            <span>{{'header.amount'|translate}} :</span>
+            <span>{{amount}} {{currency}}</span>
         </span>
     </div>
 
     <div class="col-lg-3 col-md-3 col-sm-3  language">
         <br/>
-        <span>Choose Language</span>
+        <span>{{'header.chooseLanguage'|translate}}</span>
         <span class="dropdown">
             <img class="dropimg" src="../assets/gb.png" />
             <div class="dropdown-content">
-                <a href="#ref">
+                <a (click)="translator.use('en')">
                     <img src="../assets/gb.png" /> English
                 </a>
-                <a href="#ref">
+                <a (click)="translator.use('it')">
                     <img src="../assets/it.png" /> Italy
                 </a>
             </div>

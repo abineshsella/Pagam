@@ -1,0 +1,10 @@
+{
+    "header":{
+        "shop":"Negozio",
+        "amount":"Quantità",
+        "chooseLanguage":"Scegli la lingua"
+    },
+    "newPayments": {
+        "newPayment": "Nuovi pagamenti"
+    }
+}

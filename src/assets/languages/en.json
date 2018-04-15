@@ -1,0 +1,10 @@
+{
+    "header": {
+        "shop": "Shop",
+        "amount": "Amount",
+        "chooseLanguage": "Choose Language"
+    },
+    "newPayments": {
+        "newPayment": "New Payments"
+    }
+}
