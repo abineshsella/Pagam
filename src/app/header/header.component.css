@@ -15,10 +15,11 @@ font-family: tahoma;
 }
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: absolute ;
     background-color: #FFE74C;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px #FF5964;
+    z-index: 1;
 }
 .dropdown-content a {
     padding: 12px 16px;
